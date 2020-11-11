@@ -1,0 +1,90 @@
+<!-- Layout for 1 month in a DAY calendar -->
+
+<h1> {{ months_of_the_quarter[number] }} </h1>
+<table>
+    <tbody>
+        <tr>
+            {% for day in days_of_the_week %}
+                <th>{{ day }}</th>
+            {% endfor %}
+        </tr>
+            <tr>
+                <!-- Day 1 of Month -->
+                <td> 
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                    <br>
+                    No School! :)
+                </td>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+
+                    {% if number == 0 %}
+                    <br>
+                    <input type="checkbox"><label for="ass1">  Assignment 1: Doodle</label>
+                    {% endif %}
+
+                </td> 
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                </td> 
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                </td> 
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:3 }}{% endcapture %}</span>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                </td>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                </td>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                </td>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                </td>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:3 }}{% endcapture %}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                </td>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                </td>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                </td>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                </td>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:3 }}{% endcapture %}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                </td>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                </td>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                </td>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                </td>
+                <td>
+                    <span>{{start_date}} {% capture start_date %}{{ start_date | plus:1 }}{% endcapture %}</span>
+                </td>
+            </tr>
+    </tbody>
+</table>
+<hr>

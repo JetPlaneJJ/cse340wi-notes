@@ -1,0 +1,26 @@
+I"�<p>Important: <strong>set the bounding box correctly for addLine!</strong> You need to edit the layoutParams within the addLine method.</p>
+
+<h1 id="doodle-hints-spring-2020--4-12-davidjays-oh-questions">Doodle Hints Spring 2020 –&gt; 4-12 David/Jay’s OH Questions</h1>
+<ul>
+  <li>Screen not rotating → Part 1… why??
+    <ul>
+      <li>enable <strong>‘Auto-Rotate’</strong> if it isn’t yet.</li>
+    </ul>
+  </li>
+  <li>Why is my dog picture so small?
+    <ul>
+      <li>Be sure to check the spec for the example screenshot, and set your constraints correctly. See Android documentation for further details</li>
+      <li>Check the documentation especially for constraint types</li>
+    </ul>
+  </li>
+  <li>Addressed Part 2 View → some people set their parent constraint layout to id -1, should be 0!!
+    <ul>
+      <li>this might give an error, so please watch out for this</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="pdf-view-of-4-12-2020-office-hour-notes">PDF View of 4-12-2020 Office Hour Notes</h1>
+<iframe src="https://jetplanejj.github.io/CSE340-private-website/hw-hints/Doodle/4-8%20Doodle%20Office%20Hour%20Notes.pdf" width="100%" height="500px">
+</iframe>
+:ET

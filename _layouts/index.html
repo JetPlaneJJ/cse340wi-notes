@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% assign days_of_the_week = "Monday|Tuesday|Wednesday|Thursday|Friday" | split: "|" %}
+{% assign dates_of_the_month = (1..31) %}
+{% assign months_of_the_quarter = "January|February|March" | split: "|" %}
+
+<h1 class="page-title" style="font-size: 64px;"> {{ site.time | date: '%Y' }} Calendar</h1>
+
+<hr>
+
+<!-- January -->
+{% assign number = 0 %}
+{% assign start_date = 4 %}
+{% include calendar.html %}
+
+<!-- February -->
+{% assign number = 1 %}
+{% assign start_date = 1 %}
+{% include calendar.html %}
+
+<!-- March -->
+{% assign number = 2 %}
+{% assign start_date = 1 %}
+{% include calendar.html %}
