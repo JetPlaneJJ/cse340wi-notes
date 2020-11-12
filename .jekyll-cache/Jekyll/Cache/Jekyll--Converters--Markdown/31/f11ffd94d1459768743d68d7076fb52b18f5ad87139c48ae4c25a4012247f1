@@ -1,4 +1,4 @@
-I"|î<div class="posts">
+I"Uî<div class="posts">
   
   <hr />
   <div class="post">
@@ -152,7 +152,7 @@ theme. Hope this works for you!</p>
 <p>Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by <a href="https://twitter.com/mdo">@mdo</a>. Poole, and every theme built on it (like Hyde here) includes the following:</p>
 
 <ul>
-  <li>Complete Jekyll setup included (layouts, config, <a href="/cse340-notes/404">404</a>, <a href="/cse340-notes/feed.xml">RSS feed</a>, posts, and <a href="/cse340-notes/about">example page</a>)</li>
+  <li>Complete Jekyll setup included (layouts, config, <a href="/404">404</a>, <a href="/feed.xml">RSS feed</a>, posts, and <a href="/about">example page</a>)</li>
   <li>Mobile friendly design and development</li>
   <li>Easily scalable text and component sizing with <code class="language-plaintext highlighter-rouge">rem</code> units in the CSS</li>
   <li>Support for a wide gamut of HTML elements</li>

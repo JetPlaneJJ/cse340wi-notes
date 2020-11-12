@@ -1,13 +1,14 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
+remote_theme:     fongandrew/hydeout
 
 # Setup
 title:            CSE 340 Notes
 tagline:          'A Jekyll theme'
 description:      '<a href="https://github.com/JetPlaneJJ/CSE340-Notes-MasterList" target="_blank">A Compilation of Notes</a> for <a href="https://courses.cs.washington.edu/courses/cse340/" target="_blank">Interaction Programming</a>.'
 url:              https://fongandrew.github.io
-baseurl:          '/cse340-notes'
+# baseurl:          '/cse340-notes'
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
