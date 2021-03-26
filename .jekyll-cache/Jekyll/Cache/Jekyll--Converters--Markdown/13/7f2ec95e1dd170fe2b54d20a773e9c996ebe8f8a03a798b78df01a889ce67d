@@ -1,0 +1,6 @@
+I"<h2 id="general-pointers">General Pointers</h2>
+<ul>
+  <li>Set the bounding box correctly for addLine! This ensures that your View is not cut off or takes more space than intended.</li>
+  <li>You need to edit the layoutParams within the addLine method.</li>
+</ul>
+:ET

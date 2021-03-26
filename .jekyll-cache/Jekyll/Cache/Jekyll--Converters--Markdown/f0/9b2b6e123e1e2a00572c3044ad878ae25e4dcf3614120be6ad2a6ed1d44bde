@@ -1,0 +1,26 @@
+I"\<hr />
+
+<p>Useful links:</p>
+<ul>
+  <li>Official Class Website (TBA)</li>
+  <li><a href="https://gitlab.cs.washington.edu/users/sign_in">GitLab</a></li>
+  <li>Ed (TBA)</li>
+  <li><a href="https://www.gradescope.com/">Gradescope</a></li>
+  <li><a href="https://developer.android.com/docs">Android Documentation</a></li>
+  <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines</a></li>
+</ul>
+
+<p><br /></p>
+
+<p>Below are some hints and tips for homework in this class.</p>
+
+<ol>
+  <li><a href="/340-notes/2020/11/03/doodle-hints.html">AS1: Doodle Hints</a></li>
+  <li><a href="https://jetplanejj.github.io/CSE340-private-website/2020/01/20/layout">AS2: Layout Hints</a></li>
+  <li>No hints document for AS3: Accessibility.</li>
+  <li><a href="https://jetplanejj.github.io/CSE340-private-website/2020/02/02/cp">AS4: Color Picker Hints</a></li>
+  <li><a href="https://jetplanejj.github.io/CSE340-private-website/2020/02/28/menus">AS5: Menus Hints</a></li>
+  <li><a href="https://jetplanejj.github.io/CSE340-private-website/2020/03/15/undo/">AS6: Undo Hints</a></li>
+</ol>
+
+:ET

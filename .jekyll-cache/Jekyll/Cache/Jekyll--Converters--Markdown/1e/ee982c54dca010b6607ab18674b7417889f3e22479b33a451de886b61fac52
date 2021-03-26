@@ -1,0 +1,52 @@
+I"<h2 id="overview">Overview</h2>
+<ul>
+  <li>Your color picker can be the custom one, just needs to correctly select colors.</li>
+  <li>The color picker can be placed anywhere as long as the whole thing is inside the screen</li>
+  <li>All visible buttons should be grayed out/not usable immediately after clicking color_fab (leave color fab enabled)</li>
+</ul>
+
+<h2 id="part-4-ideas">Part 4 ideas</h2>
+<p><strong>Note: please use the existing undo and redo classes. The Action should be reversible.</strong></p>
+<ul>
+  <li>Easier ideas
+    <ul>
+      <li>Clearing the whole screen</li>
+      <li>Eraser</li>
+      <li>Dashed/dotted lines when drawing</li>
+      <li>Fill entire canvas with some color</li>
+      <li>Change paint brush from rounded to hard corners style</li>
+      <li>Gradient brush</li>
+    </ul>
+  </li>
+  <li>Harder ideas
+    <ul>
+      <li>A drawing action: Some emojis drawn along a path</li>
+      <li>Action creates a TextView showing the current Location (think Snapchat sticker)</li>
+      <li>Cropping the drawing</li>
+      <li></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Reflection:
+Be sure to group your data based on “like” issues, not based on who sent them to you.</p>
+<ul>
+  <li>include specific steps you would take to solve the issues you found with the default Undo app.</li>
+  <li>can suggest new heuristics for the “how well do the heuristics fit”?
+Others Hints
+From Lecture Winter 2020:
+```java
+// RrvDrawActivity: Contains ALL buttons
+// Rvdrawingact: Implements a class that allows you to undo the redo, allows u to commit actions, calls
+// AbstractDrActvity: No history, adding menus</li>
+</ul>
+
+<p>// DrawingView: Keeps track of stroke views
+	// has onTouchEvent with Pps state machine</p>
+
+<p>// Possible to implement action: Emojis, dotted lines… THERE IS A WORKSHEET, SEE WEBSITE FOR PDF DOWNLOAD!!!
+```
+From Lecture Spring 2020 (5/22):
+Review: all systems have at least 3 models (Design/what you thought the system should do, System Image: your implementation, User Model/How the user thinks the system works)</p>
+
+:ET

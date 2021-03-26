@@ -5,23 +5,16 @@ remote_theme:     fongandrew/hydeout
 
 # Setup
 title:            CSE 340 Notes
-tagline:          'A Jekyll theme'
+tagline:          ''
 description:      '<a href="https://github.com/JetPlaneJJ/CSE340-Notes-MasterList" target="_blank">A Compilation of Notes</a> for <a href="https://courses.cs.washington.edu/courses/cse340/" target="_blank">Interaction Programming</a>.'
-url:              https://fongandrew.github.io
-# baseurl:          '/cse340-notes'
-                  # the optional subpath of your site, e.g. "/blog"
-                  # NB: This applies to all pages in your Jekyll site.
-                  # If you want to move just the blog index pages but keep
-                  # other pages at root, see the paginate_path and
-                  # sidebar_blog_link below.
+url:              https://github.com/JetPlaneJJ
+baseurl:          '/340-notes'
 
 author:
   name:           'Jay Lin'
   url:            https://github.com/JetPlaneJJ
 
 paginate:         5
-# paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
 
 plugins:
   - jekyll-feed
@@ -30,7 +23,6 @@ plugins:
 
 # Sidebar link settings
 sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
-                                # page. If you change your paginate_path,
-                                # set this to the root of the paginate_path
-                                # to enable a separate blog link.
+
+disqus: 
+  shortname: jays-cse-340-notes

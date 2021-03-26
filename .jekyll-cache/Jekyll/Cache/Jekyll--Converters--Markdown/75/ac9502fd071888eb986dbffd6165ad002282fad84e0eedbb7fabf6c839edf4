@@ -1,0 +1,15 @@
+I"�<h2 id="overview">Overview</h2>
+<ul>
+  <li>You can emulate the example custom menu for the custom Menu portion of the assignment.</li>
+  <li>onDraw() should draw the shapes for each menu</li>
+  <li>When dragging (choosing within the menu), updateModel is important…</li>
+  <li>For the Pie Menu…
+    <ul>
+      <li>Consider <strong>setting your View’s X/Y</strong> so that when you draw from the topleft corner, it draws the full circle
+while the user’s click is located at the center of the circle.</li>
+      <li>The angle system for Android is unintuitive, sorry :( Please check <a href="https://thoughtbot.com/blog/android-canvas-drawarc-method-a-visual-guide">this article out</a> for a visual on Android drawPath. And this <a href="https://stackoverflow.com/questions/17574424/how-to-use-atan2-in-combination-with-other-radian-angle-systems">StackOverflow post</a> for a visual on atan2() if you choose to use it.</li>
+      <li><strong>Text orientation of your pie menu does not have to match the video</strong> or even be centered. It just needs to fit within its slice and be inside the outermost black circle.</li>
+    </ul>
+  </li>
+</ul>
+:ET

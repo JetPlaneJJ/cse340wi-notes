@@ -1,0 +1,7 @@
+I"g<h2 id="overview">Overview</h2>
+<ul>
+  <li>Your color picker can be the custom one, just needs to correctly select colors.</li>
+  <li>The color picker can be placed anywhere as long as the whole thing is inside the screen</li>
+  <li>All visible buttons should be grayed out/not usable immediately after clicking color_fab (leave color fab enabled)</li>
+</ul>
+:ET

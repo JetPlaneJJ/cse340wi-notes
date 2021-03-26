@@ -1,0 +1,37 @@
+I"�<h2 id="general-pointers">General Pointers</h2>
+<ul>
+  <li>Set the bounding box correctly for addLine! This ensures that your View is not cut off or takes more space than intended.</li>
+  <li>You need to edit the layoutParams within the addLine method.</li>
+</ul>
+
+<h2 id="common-office-hour-questions-as-of-spring-2020">Common Office Hour Questions (as of Spring 2020)</h2>
+<ul>
+  <li>Screen not rotating in Part 1… why?
+    <ul>
+      <li>enable <strong>‘Auto-Rotate’</strong> on your device or emulator if it isn’t enabled yet.</li>
+    </ul>
+  </li>
+  <li>Why is my <em>__</em> picture so small?
+    <ul>
+      <li>Be sure to check the spec for the example screenshot, and set your constraints correctly. See Android docs for further details.</li>
+      <li>Check the docs especially for Constraint Types</li>
+    </ul>
+  </li>
+  <li>Be careful in Part 2… You might instinctively set the parent constraint layout to id -1… but…</li>
+  <li>How to <strong>animate ImageViews</strong> individually for Part 3 (not using the addAllImagesFromData() method that was given to you)?
+    <ul>
+      <li>Note: DrawView inherits from ImageView and can load a resource from res/drawable.</li>
+      <li>Please refer to this <a href="https://courses.cs.washington.edu/courses/cse340/21wi/slides/wk01/animation.html#33">lecture slide</a></li>
+    </ul>
+  </li>
+  <li>What on earth is <strong>FontMetrics</strong>?
+    <ul>
+      <li><a href="https://suragch.medium.com/meaning-of-top-ascent-baseline-descent-bottom-and-leading-in-androids-fontmetrics-c80cf019aef5">This Medium article</a> may help you visualize the differences between top/bottom/ascent/descent.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="pdf-view-of-4-12-2020-office-hour-notes">PDF View of 4-12-2020 Office Hour Notes</h2>
+<iframe src="https://jetplanejj.github.io/CSE340-private-website/hw-hints/Doodle/4-8%20Doodle%20Office%20Hour%20Notes.pdf" width="100%" height="500px">
+</iframe>
+:ET

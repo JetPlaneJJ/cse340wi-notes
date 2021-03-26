@@ -1,0 +1,8 @@
+I"–<h2 id="parts-1-2-overview">Parts 1-2 Overview</h2>
+<ul>
+  <li>center your images + maintain aspect ratio (see this: https://developer.android.com/reference/android/widget/ImageView.ScaleType)</li>
+  <li>remember to give all images an ID number!</li>
+  <li>margin value is given to you (vMargin)</li>
+  <li>there should also be more pre-set values that you can use, no need to use Magic Numbers</li>
+</ul>
+:ET
