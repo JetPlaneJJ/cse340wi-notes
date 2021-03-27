@@ -8,7 +8,7 @@ title:            CSE 340 Notes
 tagline:          ''
 description:      '<a href="https://github.com/JetPlaneJJ/CSE340-Notes-MasterList" target="_blank">A Compilation of Notes</a> for <a href="https://courses.cs.washington.edu/courses/cse340/" target="_blank">Interaction Programming</a>.'
 url:              https://github.com/JetPlaneJJ
-baseurl:          '/340-notes'
+# baseurl:          '/340-notes'
 
 author:
   name:           'Jay Lin'
