@@ -1,7 +1,43 @@
-I"�<h2 id="general-pointers">General Pointers</h2>
+I"<h2 id="general-pointers">General Pointers</h2>
 <ul>
   <li>Set the bounding box correctly for addLine! This ensures that your View is not cut off or takes more space than intended.</li>
   <li>You need to edit the layoutParams within the addLine method.</li>
+</ul>
+
+<h2 id="common-edstem-questions-winter-2022">Common Edstem Questions (Winter 2022)</h2>
+<ul>
+  <li>
+    <p>Setup and other Technology</p>
+
+    <ul>
+      <li>Autograder/Autograder Anomalies: #27</li>
+      <li>Layout Inspector: #29</li>
+    </ul>
+  </li>
+  <li>
+    <p>Doodle</p>
+    <ul>
+      <li>Code Quality: #62</li>
+      <li>Doodle release: #16,  #24, #26</li>
+      <li>Bounding boxes: #45, #54</li>
+      <li>Code quality: #62</li>
+      <li>Quadrant Class: #43</li>
+      <li>CircleView: #54
+        <ul>
+          <li>Definition of Radius: #21</li>
+        </ul>
+      </li>
+      <li>TextView: #23</li>
+      <li>FontMetrics
+        <ul>
+          <li>Units: #42</li>
+        </ul>
+      </li>
+      <li>LineView: #50, #51</li>
+      <li>“Doodle Keeps Stopping”: #52</li>
+      <li>MyView/Creative Doodle: #78, #92, #97</li>
+    </ul>
+  </li>
 </ul>
 
 <h2 id="common-office-hour-questions-as-of-spring-2020">Common Office Hour Questions (as of Spring 2020)</h2>
@@ -33,5 +69,6 @@
 
 <h2 id="pdf-view-of-4-12-2020-office-hour-notes">PDF View of 4-12-2020 Office Hour Notes</h2>
 <iframe src="https://jetplanejj.github.io/CSE340-private-website/hw-hints/Doodle/4-8%20Doodle%20Office%20Hour%20Notes.pdf" width="100%" height="500px">
+
 </iframe>
 :ET
